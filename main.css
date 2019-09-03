@@ -1,0 +1,70 @@
+* {
+	font-family: Bodoni MT;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('https://s3-alpha-sig.figma.com/img/bd61/70b9/570974463ab7d406e9c6e750ba9bd104?Expires=1567987200&Signature=XidRvna4~O3ayuuRRA5FVjrDVAE4WdV5vPX~eFRKY7t9yyvnTTMtg3suaI0vtXQsNmdI5iCwxoldduz5wKiRAR-8EJ-Tq6loeKc6LIMDCAe-EjivytWO7lep-ayWw5vDt9FQMbdQQiVVnzBddL8GfU9X1KZWH6VHzP8ynwFrLL9hAQ1sgtHALVFMRDnaWopm9hMsA~qEU5sVLW728bvI26t32aHqwBKn69yfGjwq3vgiKzIFpcmDD4vug7gu~ucQTQWN4uF15zaG-PKlyAS1GpNIVxdLskeVSQXqa89QGST6hVNy-0pGvEdVISYsq6G9spedAJ~~r5vRDD49a47bbA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	/*background-attachment: fixed;*/
+ 	background-size: 100vw 100%;
+	height: 400vh;
+}
+.container{
+	position:relative;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	position: relative;
+	background-color: transparent;
+	display: grid;
+  	grid-template-columns: 70vw auto auto auto;
+	grid-column-gap: 30px;
+
+}
+.nav-logo{
+	padding: 25px;
+	margin: 30px 0 0 30px;
+	font-size: 2.5rem;
+    border-style: solid;
+    border-width: 2px;
+	width: 10vw;
+	font-family: Bodoni MT;
+}
+.item{
+	text-align: center;
+	margin: auto;
+	font-size: 1.4rem;
+	font-family: Bodoni MT;
+}
+.main{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+	
+}
+.one{
+	font-size: 7rem;
+}
+.life{
+	color: grey;
+	font-size: 7rem;
+}
+.part2{
+	font-size: 2rem;
+}
+.shit{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
