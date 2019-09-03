@@ -6,7 +6,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url('https://s3-alpha-sig.figma.com/img/bd61/70b9/570974463ab7d406e9c6e750ba9bd104?Expires=1567987200&Signature=XidRvna4~O3ayuuRRA5FVjrDVAE4WdV5vPX~eFRKY7t9yyvnTTMtg3suaI0vtXQsNmdI5iCwxoldduz5wKiRAR-8EJ-Tq6loeKc6LIMDCAe-EjivytWO7lep-ayWw5vDt9FQMbdQQiVVnzBddL8GfU9X1KZWH6VHzP8ynwFrLL9hAQ1sgtHALVFMRDnaWopm9hMsA~qEU5sVLW728bvI26t32aHqwBKn69yfGjwq3vgiKzIFpcmDD4vug7gu~ucQTQWN4uF15zaG-PKlyAS1GpNIVxdLskeVSQXqa89QGST6hVNy-0pGvEdVISYsq6G9spedAJ~~r5vRDD49a47bbA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+	background-image: url('./img/backgroundImage.jpg');
 	background-position: center;
   	background-repeat: no-repeat;
   	/*background-attachment: fixed;*/
