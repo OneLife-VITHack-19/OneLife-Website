@@ -24,22 +24,31 @@ body{
 	position: relative;
 	background-color: transparent;
 	display: grid;
-  	grid-template-columns: 70vw auto auto auto;
+  	grid-template-columns: 70vw auto auto auto auto;
 	grid-column-gap: 30px;
 
 }
 .nav-logo{
-	padding: 25px;
+	padding: 1vw;
 	margin: 30px 0 0 30px;
+	width: 11vw;
 	font-size: 2.5rem;
     border-style: solid;
     border-width: 2px;
-	width: 10vw;
 	font-family: Bodoni MT;
+}
+.bartop{
+	margin: 48px 0 0 0;
+	font-size: 1.4rem;
+	font-family: Bodoni MT;
+	height: 9px;
+	width: 4vw;
+	background-color: black;
+	color: black;
 }
 .item{
 	text-align: center;
-	margin: auto;
+	margin: 40px 0 0 0;
 	font-size: 1.4rem;
 	font-family: Bodoni MT;
 }
@@ -67,4 +76,49 @@ body{
     bottom: 0;
     left: 50%;
     transform: translate(-50%,0%);
+}
+.social{
+	position: absolute;
+	bottom: 0;
+	right: 30px;
+	transform: translate(-50%,0%);
+	display: grid;
+	grid-template-columns: repeat(3, 100%);
+	grid-column-gap: 0px;
+	align-items: center;
+	justify-content: center;
+}
+
+.social svg{
+	margin: auto;
+}
+.bar{
+	height: 9px;
+	width: 3vw;
+	background-color: black;
+	color: black;
+	margin: auto;
+}
+.date{
+	position: absolute;
+	top: 30%;
+	right: 15%;
+	transform: translate(-50%,-50%);
+}
+.date hr{
+	width: 6rem;
+	height: 2px;
+	background-color: black;
+	color: black;
+	transform: rotate(45deg);
+}
+.year{
+	transform: translateX(50%);
+	font-size: 2rem;
+}
+.month{
+	
+	transform: translateX(5%);
+	transform: translateY(-30%);
+	font-size: 4rem;
 }
