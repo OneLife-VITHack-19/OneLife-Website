@@ -3,7 +3,7 @@
 :root {
 	--landingFont: 'font69751'; /*main font family*/
 	--titleFont: 'Sans Serif';
-	--landingtitleSize: 10em;
+	--landingtitleSize: 14em;
 	--landingsubtitleSize: 1.7em;
 	--itemfontSize: 1.4em;
 	--navchoicesFont: 'Sans Serif';
@@ -13,11 +13,18 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url('./img/backgroundImage.jpg');
-	background-position: center;
+    /*Make a grey overlay only on bottom left to make text eligible*/
+	background-image: 
+						/* repeating-linear-gradient(
+							80deg,
+							 white 50%,
+							 transparent 10%
+						),  */
+						url('./img/backgroundImage.jpg');
+	background-position:middle center;
 	  background-repeat: no-repeat;
-	  background-origin: content-box;
-  	/*background-attachment: fixed;*/
+  /* 	background-attachment: fixed; */
+  background-size:cover;
  	background-size: 100vw 200%;
 	height: 300vh;
 }
@@ -106,9 +113,9 @@ html {
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	top:51%;
-    left:50%;
-    transform: translate(-50%,-50%);
+	top:10%;
+    left:10%;
+    /* transform: translate(-50%,-50%); */
 	font-family:var(--titleFont);
 }
 .title {
@@ -116,16 +123,24 @@ html {
 }
 .one{
 	font-weight: bold;
+   font-size:1.5em;
+   left:0%;
+   top:-10%;
 }
 .life{
 	color: #525252;	
 	font-style: italic;
+	 font-size:1.3em;
+	 position: relative;
+   left:44vw;
+   top:-15vw;
 }
+
 .part2{
 	font-size:var(--landingsubtitleSize);
-	position:relative;
-	top:-0.8em;
-	left:5vw;
+	position: absolute;
+	top:65%;
+	left:-8vw;
 }
 .shit{
     position: absolute;
