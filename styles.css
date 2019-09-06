@@ -228,8 +228,8 @@ html {
 .nav-logo2{
 	padding: 1vw;
 	position: absolute;
-	top:5vh;
-	left:2vw;
+	top:2em;
+	left:2em;
 	width: 17vw;
 	font-size: 2.5rem;
     border-style: solid;
@@ -238,6 +238,7 @@ html {
 	opacity: 0;
 	transition-duration: 1s;
 	background: transparent;
+	color:rgb(221, 216, 216);
 }
 .exp{
 	position: absolute;
@@ -249,29 +250,43 @@ html {
 }
 .text2{
 	position: absolute;
-	top: 70%;
-	left: 75%;
-	transform: translate(-50%,-50%);
+	top: -10em;
+	left: 33em;
 	opacity: 0;
 	transition-duration: 1s;
 }
 .main2{
+	position: relative;
+	top:-2.5em;
+	left:-2em;
 	font-size: 2.9rem;
 	font-weight: bold;
+    color:black;
 }
 .sub2{
 	font-size: 1.7rem;
+	position: relative;
+	top:-4em;
+	left:-3.4em;
 	font-style: italic;
 }
 
-
+#exp{
+	background: url("./img/vishnu-r-nair-m1WZS5ye404-unsplash.jpg");
+	background-size: cover;
+    margin: 10px 0 0 0;
+	z-index:1;
+	width:100vw;
+	height:43%;
+	border-radius: 14% 0 20% 0;
+}
 
 /*Container 3*/
 
 .container3{
 	position:relative;
 	height: 85vh;
-	width: 100%;
+	width: 50vw;
 	margin: 0;
 	padding: 0;
 }

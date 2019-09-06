@@ -17,14 +17,14 @@ new ScrollMagic.Scene({
 .setClassToggle(".exp", "show") // add class to reveal
 .addTo(controller);
 
-new ScrollMagic.Scene({
+/* new ScrollMagic.Scene({
     triggerElement: ".text2",
-    triggerHook: 0.8, 
-    duration: 800,
+    triggerHook: 0.2, 
+    duration: 400,
     offset: 90
 })
 .setClassToggle(".text2", "show-test2") // add class to reveal
-.addTo(controller);
+.addTo(controller); */
 
 new ScrollMagic.Scene({
     triggerElement: ".nav-logo3",
