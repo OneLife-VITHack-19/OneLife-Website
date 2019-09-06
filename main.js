@@ -44,11 +44,11 @@ new ScrollMagic.Scene({
 .setClassToggle(".gloves", "show") // add class to reveal
 .addTo(controller);
 
-new ScrollMagic.Scene({
+/* new ScrollMagic.Scene({
     triggerElement: ".text3",
     triggerHook: 0.8,
     duration: 800, 
     offset: 90
 })
 .setClassToggle(".text3", "show-test3") // add class to reveal
-.addTo(controller);
+.addTo(controller); */
