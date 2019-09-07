@@ -46,9 +46,9 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
     triggerElement: ".text3",
-    triggerHook: 0.8,
-    duration: 800,
-    offset: 90
+    triggerHook: 1,
+    duration: 800, 
+    offset: 0
 })
     .setClassToggle(".text3", "show-test3") // add class to reveal
     .addTo(controller);
