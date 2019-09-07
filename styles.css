@@ -156,8 +156,9 @@ body{
 	font-size: 2rem;
 }
 .month{
-	transform: translateX(5%);
+	
 	transform: translateY(-30%);
+	transform: translate(-15%, -30%);
 	font-size: 4rem;
 }
 /*Container 2*/
