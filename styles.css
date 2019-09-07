@@ -45,11 +45,13 @@ body{
 }
 .nav-logo{
 	padding: 1vw;
-	margin: 30px 0 0 30px;
-	width: fit-content;
+	margin: 15px 0 0 15px;
+	width:6em;
+	height:3.3em;
+	box-sizing: border-box;
 	font-size: 2.5rem;
     border-style: solid;
-    border-width: 2px;
+	border-width: 2px;
 	font-family: Bodoni MT;
 }
 .bartop{
@@ -75,7 +77,6 @@ body{
 	top: 45vh;
     left:calc(50vw - 250px);
     transform: translate(-50%,-50%);
-	
 	font-size: 19rem;
 	font-weight: bold;
 }
@@ -118,12 +119,12 @@ body{
   }
 .social{
 	position: absolute;
-	bottom: 0;
+	bottom: 0px;
 	right: 30px;
-	transform: translate(-50%,0%);
+	
 	display: grid;
-	grid-template-columns: repeat(3, 100%);
-	grid-column-gap: 0px;
+	grid-template-rows: 87px 70px 70px;
+	grid-row-gap: 0px;
 	align-items: center;
 	justify-content: center;
 }
@@ -132,8 +133,8 @@ body{
 	margin: auto;
 }
 .bar{
-	height: 9px;
-	width: 3vw;
+	height: 50px;
+	width: 9px;
 	background-color: black;
 	color: black;
 	margin: auto;
