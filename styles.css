@@ -39,7 +39,7 @@ body{
 	position: relative;
 	background-color: transparent;
 	display: grid;
-  	grid-template-columns: 60vw auto auto auto auto;
+  	grid-template-columns: 65vw 9vw auto auto auto;
 	right: 5px;
 }
 .nav-logo{
@@ -162,6 +162,7 @@ body{
 }
 /*Container 2*/
 #exp{
+	box-sizing: border-box;
 	position: relative;
 	background-image: url(./img/Exp.jpg);
 	background-repeat: no-repeat;
@@ -169,7 +170,7 @@ body{
 	border-radius: 15vh 0 15vh 0;
 	height: 130vh;
 	margin: 80px 0 0 0;
-	border: 0.5em solid black;
+	border: 0.9em solid black;
 }
 
 .nav-logo2{
