@@ -20,7 +20,7 @@ body{
 .nav{
     position: absolute;
     display: grid;
-    grid-template-columns: 3vw 3vw 14vw 2vw 34vw;
+    grid-template-columns: auto auto auto;
     left: 20px;
     grid-gap: 10px;
     justify-items: center;
@@ -32,6 +32,12 @@ body{
     width: 70px;
     height: 10px;
     background-color: #CD0000;
+}
+select{
+    position: absolute;
+    left: calc(50vw - 110px);
+    top: calc(3vh + 30px);
+    height: 3.5vh;
 }
 .embrace{
     position: absolute;
@@ -63,7 +69,7 @@ input{
 }
 .sign{
     position: absolute;
-    bottom: 5vh;
+    top: 90vh;
     left: 30px;
     transform: translateY(-50%);
     display: grid;
@@ -74,7 +80,7 @@ input{
 }
 .signup{
     margin: 0;
-    padding: 7px 45px 7px 45px;
+    padding: 2vh 2.7vw 2vh 2.7vw;
     background-color: #CD0000;
     color: black;
     border-radius: 100px;
