@@ -232,7 +232,7 @@ body{
 
 .gloves{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 75%;
 	transform: translate(-50%,-50%);
 	width: 649px;
@@ -243,7 +243,7 @@ body{
 
 .text3{
 	position: absolute;
-	top: 40%;
+	top: 70%;
 	left: 26%;
 	transform: translate(-50%,-50%);
 	transition-duration: 1s;
@@ -279,7 +279,7 @@ body{
 
 
 .show-test3{
-	top: 50%;
+	top: 40%;
 	transform: translate(-50%,-50%);
 	opacity: 1;	
 }
