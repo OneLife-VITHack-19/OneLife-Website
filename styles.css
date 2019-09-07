@@ -151,7 +151,7 @@ body{
 	transform: rotate(45deg);
 }
 .year{
-	transform: translateX(50%);
+	transform: translate(60%,20%);
 	font-size: 2rem;
 }
 .month{
