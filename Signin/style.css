@@ -20,7 +20,7 @@ body{
 .nav{
     position: absolute;
     display: grid;
-    grid-template-columns: 2vw 2vw 12vw 2vw 34vw;
+    grid-template-columns: 2vw 3vw 15vw 2vw 34vw;
     left: 20px;
     grid-gap: 1.25vw;
     justify-items: center;
@@ -29,7 +29,7 @@ body{
     top: 3vh;
 }
 .bartop{
-    width: 4vw;
+    width: 70px;
     height: 10px;
     background-color: #CD0000;
 }
@@ -70,11 +70,11 @@ input{
 }
 .signup{
     margin: 0;
-    padding: 12px 45px 12px 45px;
+    padding: 7px 45px 7px 45px;
     background-color: #CD0000;
     color: black;
     border-radius: 100px;
-    font-size: 1.25rem;
+    font-size: 1.07rem;
     font-weight: bold;
 }
 .or{
