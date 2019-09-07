@@ -54,11 +54,11 @@ body{
 	font-family: Bodoni MT;
 }
 .bartop{
-	margin: 48px 0 0 0;
+	margin: 51px 0 0 0;
 	font-size: 1.4rem;
 	font-family: Bodoni MT;
 	height: 9px;
-	width: 4vw;
+	width: 70px;
 	background-color: black;
 	color: black;
 }
