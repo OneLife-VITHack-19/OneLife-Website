@@ -156,8 +156,9 @@ body{
 	font-size: 2rem;
 }
 .month{
-	transform: translateX(3%);
+	
 	transform: translateY(-30%);
+	transform: translate(-15%, -30%);
 	font-size: 4rem;
 }
 /*Container 2*/
@@ -166,6 +167,7 @@ body{
 	background-image: url(./img/Exp.jpg);
 	background-repeat: no-repeat;
 	background-size: 100vw 130vh;
+
 	border-radius: 15vh 0 30vh 0;
 	height: 130vh;
 }
