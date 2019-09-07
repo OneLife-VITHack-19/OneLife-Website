@@ -20,9 +20,9 @@ body{
 .nav{
     position: absolute;
     display: grid;
-    grid-template-columns: 2vw 3vw 15vw 2vw 34vw;
+    grid-template-columns: 3vw 3vw 14vw 2vw 34vw;
     left: 20px;
-    grid-gap: 1.25vw;
+    grid-gap: 10px;
     justify-items: center;
     align-items: center;
     font-size: 1.7rem;
@@ -38,6 +38,9 @@ body{
     top: 20vh;
     left: 30px;
     font-size: 3.5rem;
+}
+.personal{
+    font-size: 25px;
 }
 form{
     position: absolute;
@@ -74,7 +77,7 @@ input{
     background-color: #CD0000;
     color: black;
     border-radius: 100px;
-    font-size: 1.07rem;
+    font-size: 21px;
     font-weight: bold;
 }
 .or{
