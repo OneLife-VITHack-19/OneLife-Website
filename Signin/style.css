@@ -10,12 +10,13 @@ body{
     width: 100vw;
     display: grid;
     grid-template-columns: 50vw 50vw;
+    overflow:hidden;
 }
 
 .container1{
     position: relative;
     height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(235, 235, 235);
 }
 .nav{
     position: absolute;
@@ -68,24 +69,34 @@ input{
     border: none;
 }
 .sign{
+    margin: 4vh 0 0 0 ;
     position: absolute;
     top: 90vh;
     left: 30px;
     transform: translateY(-50%);
     display: grid;
-    grid-template-columns: 15vw 4vw 20vw;
-    grid-gap: 30px;
+    grid-template-columns: 20vw 2vw 2vw 2vw;
+    grid-gap: 15px;
     justify-items: center;
     align-items: center;
 }
 .signup{
+    white-space: nowrap;
     margin: 0;
     padding: 2vh 2.7vw 2vh 2.7vw;
     background-color: #CD0000;
     color: black;
-    border-radius: 100px;
-    font-size: 2.1vh;
+    border-radius: 5px;
+    font-size: 2.7vh;
     font-weight: bold;
+    color:white;
+    box-sizing:border-box;
+    width:20vw;
+    height:7vh;
+    text-align:center;
+}
+.signup:hover {
+    box-shadow: 0.1vh 0.1vh 0.5vh 0.3vh rgb(117, 117, 117);
 }
 .or{
     font-weight: bold;
@@ -115,4 +126,45 @@ input{
     background-image: url(./img/main.jpg);
     background-size: 50vw auto;
     background-repeat: no-repeat;
+}
+
+
+.container2 h1 {
+    font-size:8em;
+    font-family: "sans-serif";
+    color:white;
+    position:relative;
+    top:-10vh;
+    left:2vw;
+}
+
+#choiceSlider {
+    position:absolute;
+    top:50vh;
+    left:45vw;
+     width: 10vw;
+     height:5vh;
+     z-index:900;
+    display:grid;
+    grid-template-columns: 6vh 6vh 6vh;
+    background-color:rgb(241, 241, 241);
+    transform:rotate(90deg);
+    border-radius:10vh;
+    box-shadow: 0.1vh 0.1vh 0.2vh 0.2vh rgb(189, 187, 187);
+    justify-items: center;
+    align-items: center;
+}
+.activeChoice {
+    width:18px;
+    height:18px;
+    border-radius: 100%;
+    border:3px solid black;
+    box-sizing:border-box;
+}
+
+.nonactiveChoice {
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+    background-color:grey;
 }
