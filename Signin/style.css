@@ -6,12 +6,24 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: 50vw 50vw;
-    overflow:hidden;
 }
+
+/*removing scrollbar*/
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+	}
+::-webkit-scrollbar {
+	width: 0px; 
+	background: transparent; 
+}
+	
+::-webkit-scrollbar-thumb {
+	background: #FF0000;
+}
+/*snippet end*/
 
 .container1{
     position: relative;
@@ -123,9 +135,13 @@ input{
 
 .container2{
     height: 100vh;
+    width:50vw;
     background-image: url(./img/main.jpg);
     background-size: 50vw auto;
     background-repeat: no-repeat;
+    position:fixed;
+    top:0vw;
+    left:50vw;
 }
 
 
@@ -139,7 +155,7 @@ input{
 }
 
 #choiceSlider {
-    position:absolute;
+    position:fixed;
     top:50vh;
     left:45vw;
      width: 10vw;
@@ -172,7 +188,7 @@ input{
     width:2px;
     height:3vw;
     background-color:grey;
-    position:absolute;
+    position:fixed;
     left:50vw;
     z-index:100000;
     /*top defined in the html*/
