@@ -146,7 +146,7 @@ input{
      height:5vh;
      z-index:900;
     display:grid;
-    grid-template-columns: 6vh 6vh 6vh;
+    grid-template-columns: 8vh 6vh 6vh;
     background-color:rgb(241, 241, 241);
     transform:rotate(90deg);
     border-radius:10vh;
@@ -167,4 +167,13 @@ input{
     height:15px;
     border-radius: 100%;
     background-color:grey;
+}
+.choiceSliderBars {
+    width:2px;
+    height:3vw;
+    background-color:grey;
+    position:absolute;
+    left:50vw;
+    z-index:100000;
+    /*top defined in the html*/
 }
