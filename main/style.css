@@ -85,7 +85,7 @@ body{
 }
 .feedtag{
     position: absolute;     
-    color: red;
+    color: white;
     font-size: 2rem;
     transform: rotate(-90deg);
     bottom: 2rem;
@@ -93,7 +93,7 @@ body{
 
 .ftag{
     position: absolute;     
-    color: red;
+    color: white;
     font-size: 2rem;
     transform: rotate(-90deg);
     bottom: 3rem;
@@ -102,7 +102,7 @@ body{
 
 .stag{
     position: absolute;     
-    color: red;
+    color: white;
     font-size: 2rem;
     transform: rotate(-90deg);
     bottom: 2rem;
