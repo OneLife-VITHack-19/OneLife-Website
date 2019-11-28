@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.upper{
+	position: absolute;
+	height: 30vh;
+	width: 100vw;
+}
+.onelogo{
+	position: absolute;
+	right: 19vw;
+	font-size: 12vw;
+}
+.lifelogo{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 12vw;
+    font-style: italic;
+    color: lightgrey;
+}
+.shub{
+	position: absolute;
+	top: 24vh;
+	right: 31.5vw;
+	font-size: 1.4vw;
+}
+.profile{
+	position: relative;
+	height: 30vh;
+	width: 30vw;
+	top: 55px;
+	left: 90px;
+}
+.ppic{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-radius: 60%;
+}
+.pname{
+	position: absolute;
+	top: 110px;
+	left: 0px;
+	font-size: 1.45rem;
+}
+.main{
+	position: relative;
+	height: 70vh;
+	width: 100vw;
+    bottom: 0;
+}
+.friends{
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    background: #D0DDDE;
+    right: 0;
+    border-top-left-radius: 100px;
+
+}
+.store{
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    background: #600090;
+    right: 0;
+    border-top-left-radius: 100px;
+}
+.feed{
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    background: black;
+    right: 0;
+    border-top-left-radius: 100px;
+}
+.feedtag{
+    position: absolute;     
+    color: red;
+    font-size: 2rem;
+    transform: rotate(-90deg);
+    bottom: 2rem;
+}
+
+.ftag{
+    position: absolute;     
+    color: red;
+    font-size: 2rem;
+    transform: rotate(-90deg);
+    bottom: 3rem;
+}
+
+
+.stag{
+    position: absolute;     
+    color: red;
+    font-size: 2rem;
+    transform: rotate(-90deg);
+    bottom: 2rem;
+}
+
+.colapse{
+    position: absolute;
+    color: red;
+    top: 20px;
+    font-size: 2rem;
+    left: 40px;
+    cursor: pointer;
+}
