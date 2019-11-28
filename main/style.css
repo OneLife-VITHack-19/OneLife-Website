@@ -61,23 +61,26 @@ body{
     width: 100vw;
     background: #D0DDDE;
     right: 0;
+    left: 0;
     border-top-left-radius: 100px;
 
 }
 .store{
     position: absolute;
     height: 70vh;
-    width: 100vw;
+    width: 95vw;
     background: #600090;
     right: 0;
+    left: 5vw;
     border-top-left-radius: 100px;
 }
 .feed{
     position: absolute;
     height: 70vh;
-    width: 100vw;
+    width: 90vw;
     background: black;
     right: 0;
+    left: 10vw;
     border-top-left-radius: 100px;
 }
 .feedtag{
@@ -107,9 +110,11 @@ body{
 
 .colapse{
     position: absolute;
-    color: red;
-    top: 20px;
+    top: 30px;
     font-size: 2rem;
     left: 40px;
     cursor: pointer;
+    height: 40px;
+    width: 40px;
+    
 }
